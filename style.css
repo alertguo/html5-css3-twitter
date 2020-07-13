@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul, ol {
+  list-style: none;
+}
+body {
+}
+.public-header {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  display: flex;
+}
+ul > li {
+  height: 10px;
+  margin-left: 34px;
+  background: #d3dadd;
+}
+.nav-1 {
+  width: 64px;
+  margin-left: 0;
+}
+.nav-2 {
+  width: 92px;
+}
+.nav-3 {
+  width: 64px;
+}
+.nav-4 {
+  width: 34px;
+}
+.logo {
+  background: #4fc7f7;
+  height: 18px;
+  width: 22px;
+}
+.search {
+  display: flex;
+  height: 32px;
+}
+.search > div {
+  margin-left: 18px;
+  border-radius: 5px;
+}
+.search-1 {
+  background: #f1f6f7;
+  width: 224px;
+}
+.search-2 {
+  background: #4fc7f7;
+  width: 34px;
+}
+.search-3 {
+  background: #4fc7f7;
+  width: 82px;
+}
+
+
+.主页大图 {
+  background: #ff756e;
+  max-width: 100vw;
+  height: 502px;
+}
+
+
+.个人导航 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background: #ffffff;
+  height: 64px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.个人导航头像 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #f9a655;
+  transform: translateY(-120px);
+  border-radius: 10px;
+  border: 4px solid #fff;
+}
+.个人导航目录左 {
+  display: flex;
+  width: 320px;
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  transform: translateX(288px);
+}
+.text-center > dt {
+  display: flex;
+}
+.count-1 {
+  background: #d3dadd;
+  width: 46px;
+  height: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.count-2 {
+  background: #d3dadd;
+  width: 62px;
+  height: 8px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.count-3 {
+  background: #d3dadd;
+  width: 46px;
+  height: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.count-4 {
+  background: #d3dadd;
+  width: 62px;
+  height: 8px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.text-center > dd {
+  width: 26px;
+  height: 8px;
+  background: #d3dadd;
+  margin-top: 10px;
+}
+.个人导航目录右 {
+  display: flex;
+  align-items: center;
+}
+.目录右-1 {
+  background: #d3dadd;
+  width: 16px;
+  height: 16px;
+}
+.目录右-2 {
+  background: #4fc7f7;
+  width: 98px;
+  height: 36px;
+  margin-left: 18px;
+  border-radius: 5px;
+}
+
+.main{
+  display: flex;
+  width: 1180px;
+  height: 652px;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/*.public-container {*/
+/*  position: relative;*/
+/*  margin: 0 auto;*/
+/*  background: #cd201f;*/
+/*  width: 1200px;*/
+/*}*/
