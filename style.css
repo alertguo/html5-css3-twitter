@@ -183,6 +183,7 @@ ul > li {
 .content {
   background: #f4f8f9;
   padding-bottom: 80px;
+  padding-top: 12px;
 }
 /*为了把调下面的背景色,多加了个div*/
 .main {
@@ -308,7 +309,6 @@ ul > li {
   align-items: center;
   height: 44px;
   background: #fff;
-  margin-top: 12px;
 }
 .main-center-top-1{
   width: 60px;
@@ -508,7 +508,6 @@ ul > li {
   justify-content: space-evenly;
   height: 274px;
   padding-left: 14px;
-  margin-top: 12px;
   background: #ffffff;
 }
 .main-right-top-1{
